@@ -1,0 +1,28 @@
+								Operadores
+
+Los operadores permiten manipular el valor de las variables, realizar operaciones matemáticas con sus valores y comparar diferentes variables. Los operadores permiten realizar operaciones matemáticas, comparar variables y tomar decisiones lógicas.
+Los operadores son conocidos, ya que realizamos una operación (+,-,/,*) por ejemplo y el resultado lo guarda en otra variable
+
+							Tipos de operadores
+
+1°Operadores de asignación: Asignan un valor al operando de la izquierda basado en el valor del operando de la derecha
+2°Operadores aritméticos: Toman valores numéricos como sus operandos y retornan un valor numérico único.
+
+3°Operadores de comparación: Comparan dos expresiones y devuelven un valor Boolean que representa la relación de sus valores (true or false) 
+
+> mayor || < menor || == (igual a) || "!=" diferente-distinto de  || >= "mayor igual" || <= "menor igual" || === "estrictamente igual"
+
+4°Operadores logicos: Los operadores logicos nos devuelven un resultado a partir de que una condicion se cumpla o no, su resultado es boolean.
+
+&& AND -> Si las dos condiciones se cumplen entonces es true, caso contrario devuelve false.
+|| OR -> Si hay una condicion verdadera entonces todo es verdadero, no importa que el resto sea falsa.
+(!) NOT -> Regresa lo contrario de lo que le devuelvo, es decir si en mi condicion da verdadero con el NOT automaticamente lo convierte en falso lo opuesto.
+
+Por ejemplo, para loguearse en una cuenta 
+
+let password = "pepe123"
+let input = "aqui ponemos cualquier otro dato distinto a la contraseña original"    (input es lo que vamos a insertar desde la interfaz)
+let result = input == password; 
+console.log(result)
+Entonces la aplicacion hace una comparacion diciendo, es la entrada del usuario (input) igual a la contraseña que tenemos en la base de datos?
+Entonces como da false no nos permitiria ingresar, si es correcta directamente accedemos a la app o pagina web.
